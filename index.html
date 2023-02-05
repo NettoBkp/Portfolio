@@ -6,13 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://kit.fontawesome.com/5dc0840e04.css" crossorigin="anonymous">
-  <link rel="stylesheet" href="./src/css/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="./src/css/style.css">
+
+  <link rel="stylesheet" href="./src/css/color-1.css" class="alternate-style" title="color-1">
+  <link rel="stylesheet" href="./src/css/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="./src/css/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="./src/css/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="./src/css/color-5.css" class="alternate-style" title="color-5" disabled>
+
+  <link rel="stylesheet" href="./src/css/responsive.css">
+  <link rel="stylesheet" href="./src/css/style-switcher.css">
   <link rel="icon" href="./src/img/icons8-portfolio-64.png">
   <title>Portifólio: Gabriel Furtado</title>
 </head>
 
-<body>
+<body class="dark">
 
   <main class="main-container">
 
@@ -27,11 +36,11 @@
       </div>
 
       <ul class="nav">
-        <li><a href="#" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
-        <li><a href="#"><i class="fa-solid fa-user"></i>Sobre</a></li>
-        <li><a href="#"><i class="fa-solid fa-list"></i></i>Serviços</a></li>
-        <li><a href="#"><i class="fa-solid fa-briefcase"></i></i>Projetos</a></li>
-        <li><a href="#"><i class="fa-solid fa-comments"></i>Contatos</a></li>
+        <li><a href="#home" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-user"></i>Sobre</a></li>
+        <li><a href="#service"><i class="fa-solid fa-list"></i></i>Serviços</a></li>
+        <li><a href="#projects"><i class="fa-solid fa-briefcase"></i></i>Projetos</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-comments"></i>Contatos</a></li>
       </ul>
     </div>
 
@@ -39,7 +48,7 @@
     <div class="main-content">
 
       <!-- HOME SECTION -->
-      <section class="home section hidden">
+      <section class="home section" id="home">
 
         <div class="container">
 
@@ -48,20 +57,23 @@
             <div class="home-info padd-15">
               <h3 class="hello">Olá, meu nome é <span class="name">Gabriel de Souza Furtado</span></h3>
               <h3 class="my-profession">Sou <span class="typing">Desenvolvedor Front-End</span></h3>
-              <p>Tenho 20 anos e sou de Sobral-CE. Sou iniciante na área de programação, mas estou cheio de entusiasmo e determinação para aprender. Estou em busca de minha primeira oportunidade na área de desenvolvimento front-end.</p>
-              <a href="https://gabrielsousaf.github.io/Curriculo-online/" target="_blank" class="btn hire-me">Visualizar CV</a>
+              <p>Tenho 20 anos e sou de Sobral-CE. Sou iniciante na área de programação, mas estou cheio de entusiasmo e
+                determinação para aprender. Estou em busca de minha primeira oportunidade na área de desenvolvimento
+                front-end.</p>
+              <a href="https://gabrielsousaf.github.io/Curriculo-online/" target="_blank" class="btn hire-me">Visualizar
+                CV</a>
             </div>
 
             <div class="home-img padd-15">
               <img src="./src/img/person-img.png" alt="">
             </div>
-            
+
           </div>
         </div>
       </section>
 
       <!-- SOBRE -->
-      <section class="about section hidden">
+      <section class="about section" id="about">
 
         <div class="container">
 
@@ -76,13 +88,19 @@
               <div class="row">
                 <div class="about-text padd-15">
                   <h3>Me chamo Gabriel e sou <span>...</span></h3>
-                  <p>Técnico em Redes de Computadores e Tecnólogo em Análise e Desenvolvimento de Sistemas formado pela faculdade Pitágoras.Atualmente estudando programação, através de cursos online/bootcamps, e construindo projetos (pessoais) na área. Estou ampliando meus conhecimentos em programação através de cursos online e construção de projetos práticos. Meu objetivo é trabalhar como programador Front-End (e eventualmente Full-Stack), desenvolvedor web ou em áreas relacionadas, com o intuito de aprender e desenvolver habilidades na construção de softwares e interfaces web atrativas e funcionais</p>
+                  <p>Técnico em Redes de Computadores e Tecnólogo em Análise e Desenvolvimento de Sistemas formado pela
+                    faculdade Pitágoras.Atualmente estudando programação, através de cursos online/bootcamps, e
+                    construindo projetos (pessoais) na área. Estou ampliando meus conhecimentos em programação através
+                    de cursos online e construção de projetos práticos. Meu objetivo é trabalhar como programador
+                    Front-End (e eventualmente Full-Stack), desenvolvedor web ou em áreas relacionadas, com o intuito de
+                    aprender e desenvolver habilidades na construção de softwares e interfaces web atrativas e
+                    funcionais</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="personal-info padd-15">
-                  <div class="row">
+                  <div class="row container-info-item">
 
                     <div class="info-item padd-15">
                       <p>Nascimento: <span>03/11/2022</span></p>
@@ -120,56 +138,56 @@
 
                     <div class="skills">
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/img/html5-original-wordmark.svg" alt="">
                         <h6>HTML</h6>
                       </div>
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/imG/css3-original-wordmark.svg" alt="">
                         <h6>CSS</h6>
                       </div>
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/img/javascript-original.svg" alt="">
                         <h6>JAVASCRIPT</h6>
                       </div>
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/img/bootstrap-original.svg" alt="">
                         <h6>BOOTSTRAP</h6>
                       </div>
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/img/jquery-image.png" alt="">
                         <h6>JQUERY</h6>
                       </div>
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/img/firebase-logo.svg" alt="">
                         <h6>FIREBASE</h6>
                       </div>
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/img/sass-1.svg" alt="">
                         <h6>SASS</h6>
                       </div>
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/img/git-icon.svg" alt="">
                         <h6>GIT</h6>
                       </div>
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/img/nodejs-original-wordmark.svg" alt="">
                         <h6>NODE.JS</h6>
                       </div>
 
-                      <div class="tecns">
+                      <div class="tecns shadow-dark">
                         <img src="./src/img/express-109.svg" alt="">
                         <h6>NODE-EXPRESS</h6>
                       </div>
-                      
+
                     </div>
                   </div>
 
@@ -188,7 +206,8 @@
                               </h3>
 
                               <h4 class="timeline-title">Tecnólogo Em Analise e Desenvolvimento de Sistemas</h4>
-                              <p class="timeline-text">Tecnólogo em Analise e Desenvolvimento de Sistemas palla Faculdade Pitágoras</p>
+                              <p class="timeline-text">Tecnólogo em Analise e Desenvolvimento de Sistemas palla
+                                Faculdade Pitágoras</p>
                             </div>
 
 
@@ -199,7 +218,8 @@
                               </h3>
 
                               <h4 class="timeline-title">Técnico em Redes de Computadores</h4>
-                              <p class="timeline-text">Curso Técnico  feito na Escola Estadual de Educação Profissional Dom Walfrido Teixeira Vieira</p>
+                              <p class="timeline-text">Curso Técnico feito na Escola Estadual de Educação Profissional
+                                Dom Walfrido Teixeira Vieira</p>
                             </div>
 
 
@@ -210,7 +230,8 @@
                               </h3>
 
                               <h4 class="timeline-title">Ensino Médio</h4>
-                              <p class="timeline-text">Ensino médio feito na Escola Estadual de Educação Profissional Dom Walfrido Teixeira Vieira</p>
+                              <p class="timeline-text">Ensino médio feito na Escola Estadual de Educação Profissional
+                                Dom Walfrido Teixeira Vieira</p>
                             </div>
 
                           </div>
@@ -218,7 +239,7 @@
                       </div>
                     </div>
                   </div>
-                  
+
 
                 </div>
               </div>
@@ -230,7 +251,7 @@
       </section>
 
       <!-- SERVIÇOS -->
-      <section class="service section">
+      <section class="service section" id="service">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -280,7 +301,8 @@
                 </div>
 
                 <h4>Páginas Web Responsivas</h4>
-                <p>Trabalho harmonizando a estrutura da página, equilibrando elementos visuais, em diferentes dispositivos.
+                <p>Trabalho harmonizando a estrutura da página, equilibrando elementos visuais, em diferentes
+                  dispositivos.
                 </p>
               </div>
             </div>
@@ -312,11 +334,224 @@
         </div>
       </section>
 
+      <!-- PROJETOS -->
+      <section class="projects section" id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Projetos</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="projects-heading padd-15">
+              <h2>Meus Projetos Recentes:</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="projects-item padd-15">
+              <div class="projects-item-inner shadow-dark">
+                <div class="projects-img">
+                  <a href="https://gym-website-sage.vercel.app/" target="_blank"><img src="./src/img/project-1.PNG"
+                      alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="projects-item padd-15">
+              <div class="projects-item-inner shadow-dark">
+                <div class="projects-img">
+                  <a href="https://gabrielsousaf.github.io/Starbucks-Website/" target="_blank"><img
+                      src="./src/img/project-5.PNG" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="projects-item padd-15">
+              <div class="projects-item-inner shadow-dark">
+                <div class="projects-img">
+                  <a href="https://gabrielsousaf.github.io/HooBank/" target="_blank"><img src="./src/img/project-2.PNG"
+                      alt=""></a>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="projects-item padd-15">
+              <div class="projects-item-inner shadow-dark">
+                <div class="projects-img">
+                  <a href="https://gabrielsousaf.github.io/jogo-da-memoria/" target="_blank"></a>
+                  <img src="./src/img/project-3.PNG" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="projects-item padd-15">
+              <div class="projects-item-inner shadow-dark">
+                <div class="projects-img">
+                  <a href="https://gabrielsousaf.github.io/Tic-Tac-Toe/" target="_blank"><img
+                      src="./src/img/project-4.PNG" alt=""></a>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="projects-item padd-15">
+              <div class="projects-item-inner shadow-dark">
+                <div class="projects-img">
+                  <a href="https://weather-app-nu-weld.vercel.app/" target="_blank">
+                    <img src="./src/img/project-6.PNG" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- CONTATOS -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contatos</h2>
+            </div>
+          </div>
+
+          <h3 class="contact-title padd-15">Alguma Duvida?</h3>
+          <h4 class="contact-sub-title padd-15">Entre em Contato</h4>
+        </div>
+
+        <div class="row">
+
+          <div class="contact-info-item padd-15">
+            <div class="icon">
+              <i class="fa-solid fa-phone"></i>
+              <h4>Me Ligue</h4>
+              <a href="tel:+5588993383240">
+                <p>+55 (88) 993383240</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-info-item padd-15">
+            <div class="icon">
+              <i class="fa-solid fa-envelope"></i>
+              <h4>Email</h4>
+              <a href="mailto:gabriel.furtado2002@gmail.com">
+                <p>gabriell.furtado2002@gmail.com</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-info-item padd-15">
+            <div class="icon">
+              <i class="fa-brands fa-github"></i>
+              <h4>Github</h4>
+              <a href="https://github.com/gabrielsousaf" target="_blank">
+                <p>github.com/<br>gabrielsousaf</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-info-item padd-15">
+            <div class="icon">
+              <i class="fa-brands fa-linkedin"></i>
+              <h4>Linkedin</h4>
+              <a href="https://www.linkedin.com/in/gabriel-furtado-souza/" target="_blank">
+                <p>linkedin/gabriel-furtado</p>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <h3 class="contact-title padd-15">ENVIE UM EMAIL</h3>
+        <h4 class="contact-sub-title padd-15">IREI LHE RESPONDER O MAIS RAPIDO POSSIVEL</h4>
+
+        <div class="row">
+
+
+
+
+          <div class="contact-form padd-15">
+            <div class="row">
+
+              <div class="form-item col-6 padd-15">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Nome">
+                </div>
+              </div>
+
+              <div class="form-item col-6 padd-15">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Assunto">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                  <textarea name="" class="form-control" id="" placeholder="Mensagem"></textarea>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <button type="submit" class="btn">Enviar Mensagem</button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </section>
+
     </div>
   </main>
-  
+
+
+  <div class="style-switcher">
+
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+
+    <div class="day-night s-icon">
+      <i class="fas"></i>
+    </div>
+
+    <h4>Tema Cores</h4>
+
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
 
   <script src="https://kit.fontawesome.com/5dc0840e04.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
   <script src="./src/js/script.js"></script>
 </body>
 
