@@ -15,4 +15,4 @@
 
 
 ## ✨ PORTIFÓLIO.
-https://gabrielsousaf.github.io/portifolio-version-1/
+https://gabrielsousaf.github.io/Portifolio/
