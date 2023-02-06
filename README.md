@@ -7,6 +7,12 @@
  # 📱 POTIFÓLIO.
 > Projeto desenvolvido com o intuito de apresentar os meus conhecimentos e dar mais visibilidade ao meu Linkedin
 
+## ⚙ Descrição do projeto.
+> * Efeito máquina de escrever e vai trocando a frase. <br>
+> * Usuario escolhe entre 5 cores principais do site. <br>
+> * Dark Mode.<br>
+> * Responsividade mobile.
+
 ## ☕ Tecnologias Usadas
 
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
