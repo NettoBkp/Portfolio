@@ -39,9 +39,37 @@ body {
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    left: 270px;
     padding: 0 30px;
     opacity: 1;
+    position: fixed;
+    left: 270px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: 0.3s all ease-in-out;
+}
+
+.section.back-section{
+    z-index: 1;
+}
+
+.section.active{
+    z-index: 2;
+    opacity: 1;
+    animation: slideSection 2s ease;
+}
+
+@keyframes slideSection{
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
 }
 
 .hidden{
@@ -217,6 +245,10 @@ body {
     position: relative;
 }
 
+.aside .nav-toggle.open span{
+    background: transparent;
+}
+
 .aside .nav-toggle span::before{
     content: '';
     height: 2px;
@@ -227,6 +259,11 @@ body {
     left: 0;
 }
 
+.aside .nav-toggle.open span::before{
+    transform: rotate(45deg);
+    top: 0;
+}
+
 .aside .nav-toggle span::after{
     content: '';
     height: 2px;
@@ -235,6 +272,11 @@ body {
     position: absolute;
     top: 6px;
     left: 0;
+}
+
+.aside .nav-toggle.open span::after{
+    transform: rotate(-45deg);
+    top: 0;
 }
 
 .aside .nav{
@@ -621,7 +663,7 @@ h3.my-profession{
 .projects .projects-item .projects-item-inner{
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
-    overflow: hidden;
+    overflow-x: hidden;
     cursor: pointer;
 }
 
