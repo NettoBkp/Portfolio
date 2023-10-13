@@ -21,7 +21,7 @@
 
 
 ## ✨ PORTFÓLIO.
-https://gabrielsousaf.github.io/Portifolio/
+https://gabrielsousaf.github.io/Portfolio/
 
 ## 📝 Licença
 
