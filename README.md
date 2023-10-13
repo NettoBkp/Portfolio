@@ -4,7 +4,7 @@
 ![Design_sem_nome__2_-removebg-preview](https://user-images.githubusercontent.com/121953504/217038621-f02895b5-10b3-4814-9619-f76aff5c47bb.png)
 
 
- # 📱 POTIFÓLIO.
+ # 📱 PORTFÓLIO.
 > Projeto desenvolvido com o intuito de apresentar os meus conhecimentos e dar mais visibilidade ao meu Linkedin
 
 ## ⚙ Descrição do projeto.
@@ -20,7 +20,7 @@
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 
 
-## ✨ PORTIFÓLIO.
+## ✨ PORTFÓLIO.
 https://gabrielsousaf.github.io/Portifolio/
 
 ## 📝 Licença
