@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+}
+
+/* SOBRE */
+.about .about-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .about-text {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .about-text h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+
+.about .about-content .about-text h3 span {
+  color: var(--skin-color);
+}
+
+.about .about-content .about-text h3 span {
+  color: var(--skin-color);
+}
+
+.about .about-content .about-text p {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-black-700);
+}
+
+.about .about-content .personal-info {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.about .about-content .personal-info .info-item p {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--text-black-900);
+  border-bottom: 1px solid var(--bg-black-50);
+}
+
+.about .about-content .personal-info .info-item p span {
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.about .about-content .personal-info .info-item p span a {
+  cursor: pointer;
+  transition: 300ms all ease-in;
+  color: var(--text-black-700);
+
+  &:hover{
+    color: var(--skin-color);;
+  }
+}
+
+.about .about-content .personal-info .info-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.about .about-content .personal-info .buttons {
+  margin-top: 30px;
+}
+
+.about .about-content .personal-info .buttons .btn {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.about .about-content .personal-info .skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.about .about-content .personal-info .skills .tecns {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: var(--bg-black-100);
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.about .about-content .personal-info .skills .tecns:hover {
+  box-shadow: -6px 6px 0 0 var(--skin-color);
+}
+
+.about .about-content .personal-info .skills .tecns img {
+  max-width: 70px;
+  min-width: 70px;
+  width: 100%;
+}
+
+.about .about-content .personal-info .skills .tecns h6 {
+  font-weight: 700;
+  margin-top: 10px;
+  color: var(--text-black-900);
+}
+
+.about .about-content .education {
+  margin-top: 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+.about .about-content h3.title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+
+.about .about-content .timeline-box {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .timeline {
+  background-color: var(--bg-black-100);
+  padding: 30px 15px;
+  border: 1px solid var(--bg-black-50);
+  max-width: 70%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 8px;
+}
+
+.about .about-content .timeline .timeline-item {
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+
+.about .about-content .timeline .timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.about .about-content .timeline .timeline-item::before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 0;
+  background-color: var(--skin-color);
+}
+
+.about .about-content .timeline .circle-dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: var(--skin-color);
+}
+
+.about .about-content .timeline .timeline-date {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: var(--text-black-700);
+}
+
+.about .about-content .timeline .timeline-date i {
+  margin-right: 5px;
+}
+
+.about .about-content .timeline .timeline-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: var(--text-black-900);
+}
+
+.about .about-content .timeline .timeline-text {
+  color: var(--text-black-700);
+}
